@@ -1,5 +1,5 @@
 ## Data types
-```c
+```python 
 NAME
        data types - C language primitive data types
 
