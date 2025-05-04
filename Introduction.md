@@ -94,12 +94,65 @@ EXAMPLES
            char g = 'A';
            char str[] = "Hello, world!";
            unsigned int h = 255;
-
            
-           printf("%d %ld %lld %hd %.2f %.15f %c %u\n", a, b, c, d, e, f, g, h);
+           printf("%d %ld %lld %hd %.2f %.15f %c %s %u\n", a, b, c, d, e, f, g, str, h);
            return 0;
        }
        
 SEE ALSO
        C standard, <stdio.h> (for IO operations)
+```
+## Constant 
+```bash
+.CONSTANT_C(7)                   C Library Manual                  CONSTANT_C(7)
+
+NAME
+       constant_c - Writing constants in the C programming language
+
+SYNOPSIS
+       #define NAME value
+       const type NAME = value;
+
+DESCRIPTION
+       Constants in C can be defined in two main ways: using the preprocessor
+       directive #define or the const keyword.
+
+   #define
+       The #define directive is used to create macro constants. It has no type
+       checking and performs a simple textual substitution before compilation.
+
+       Example:
+           #define PI 3.14159
+
+       Notes:
+           - No memory is allocated.
+           - Cannot be debugged easily.
+           - Best for compile-time constants and macro definitions.
+
+   const
+       The const keyword defines a variable whose value cannot be changed after
+       initialization. Unlike #define, const respects C’s type system.
+
+       Example:
+           const float pi = 3.14159;
+
+       Notes:
+           - Type-safe.
+           - Can be stored in memory (RAM or flash).
+           - Supports debugging and scope rules.
+
+EXAMPLES
+       // Using #define
+       #define MAX_BUFFER_SIZE 1024
+
+       // Using const
+       const int maxBufferSize = 1024;
+
+       // Better practice: prefer const for type safety
+
+FILES
+       Not applicable.
+
+SEE ALSO
+       gcc(1), cpp(1), const(5), define(5)
 ```
