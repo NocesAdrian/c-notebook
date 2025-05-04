@@ -92,7 +92,9 @@ EXAMPLES
            float e = 3.14f;
            double f = 2.718281828459045;
            char g = 'A';
+           char str[] = "Hello, world!";
            unsigned int h = 255;
+
            
            printf("%d %ld %lld %hd %.2f %.15f %c %u\n", a, b, c, d, e, f, g, h);
            return 0;
