@@ -1,5 +1,5 @@
 ## Data types
-```bash
+```c
 NAME
        data types - C language primitive data types
 
