@@ -1,3 +1,10 @@
+# Introduction to c programming language
+C is a fast, low-level language used to build operating systems, embedded systems, and robotics. It teaches you how computers really think—through memory, logic, and control. Mastering C is like holding the Divergence Meter of programming: precise, powerful, and foundational.
+
+#### navigation
+- [structure]{#structure}
+- [data types]{#data-types}
+
 ## Data types
 ```cpp
 NAME
