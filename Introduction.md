@@ -103,7 +103,7 @@ SEE ALSO
        C standard, <stdio.h> (for IO operations)
 ```
 ## Constant 
-```bash
+```cpp
 .CONSTANT_C(7)                   C Library Manual                  CONSTANT_C(7)
 
 NAME
