@@ -6,7 +6,7 @@ C is a fast, low-level language used to build operating systems, embedded system
 - [data types](#data-types) 
 
 ## Syntax
-```bash
+```cpp
 #include <stdio.h>  // standard input output header
 
 void someFunction() {
